@@ -535,7 +535,7 @@ class MyNode(Node):
 
     def timer_callback(self):
         self.i += 1
-        self.get_logger().info('🤖 #{self.i}')
+        self.get_logger().info(f'🤖 #{self.i}')
 
 def main(args=None):
     try:
