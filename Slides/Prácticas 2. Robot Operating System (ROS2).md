@@ -170,7 +170,7 @@ Si en ambos se ven los mismos mensajes, nuestra instalación es correcta
 La CLI permite ejecutar instrucciones de un programa o sistema operativo
 
 - Tras la instalación de ROS tenemos acceso al comando `ros2`
-- `ros2` y pulsar dos veces `<TAB>` no dará la lista de todas las instrucciones
+- `ros2` y pulsar dos veces `<TAB>` nos dará la lista de todas las instrucciones
 
 `ros2 run` espera que le indiquemos un paquete y uno de sus nodos
 
