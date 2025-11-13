@@ -1460,7 +1460,7 @@ def generate_launch_description():
 
 ---
 
-# Instalación[^1]
+# Instalación [^1]
 
 [^1]: En caso de instalar en macOS (no recomendado) la tarea se complica un poco más. Podéis encontrar un tutorial en https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html.
 
