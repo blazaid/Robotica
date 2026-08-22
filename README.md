@@ -59,7 +59,7 @@ están muy bien asentados.
    3. Optimización de controladores mediante computación evolutiva
    4. Políticas de decisión y aprendizaje por refuerzo
 4. Robótica software
-   1. Arquitecturas de software
+   1. Arquitecturas de robots software
    2. Programación de _softbots_
    3. _Robotic Process Automation_ (RPA)
 
