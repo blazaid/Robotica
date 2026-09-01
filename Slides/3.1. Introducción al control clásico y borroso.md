@@ -24,8 +24,6 @@ math: mathjax
 
 #### E.T.S.I. de Sistemas Informáticos - Universidad Politécnica de Madrid
 
-##### 22 de octubre de 2023
-
 [![height:30](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-informational.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
