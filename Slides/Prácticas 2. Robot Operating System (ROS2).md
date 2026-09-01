@@ -5,6 +5,7 @@ author :
   - Alberto Díaz Álvarez <alberto.diaz@upm.es>
   - Guillermo Iglesias Hernández <guillermo.iglesias@upm.es>
   - Raúl Lara Cabrera <raul.lara@upm.es>
+  - Ander Regidor <ander.regidor@alumnos.upm.es>
 paginate : true
 theme : etsisi
 description : >
