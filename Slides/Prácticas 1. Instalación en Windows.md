@@ -23,8 +23,6 @@ math: mathjax
 
 #### E.T.S.I. de Sistemas Informáticos - Universidad Politécnica de Madrid
 
-##### 2 de enero de 2026
-
 [![height:30](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-informational.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
@@ -35,7 +33,8 @@ math: mathjax
 
 # ¿Por qué no utilizar una máquina virtual?
 
-Debido a que ROS2 no está disponible para Windows y que Webots necesita utilizar de forma exhaustiva la GPU, instalar ROS2 en WSL y Webots en el host es el método oficialmente recomendado.<br/>
+Debido a que ROS2 no está disponible para Windows y que Webots necesita utilizar de forma exhaustiva la GPU, instalar ROS2 en WSL y Webots en el host es el método oficialmente recomendado. Dicho esto, este **no es el método recomendado en la asignatura para usar ROS2 y Webots**, sólo una última opción para el que lo desee.
+
 Esta documentación incluye los pasos que ya aparecen en la documentación original de ROS2: https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Installation-Windows.html
 
 ---
@@ -97,11 +96,23 @@ sudo apt install software-properties-common
 sudo add-apt-repository universe
 ```
 
+---
+
 2. Configurar los repositorios
 ```
 sudo apt update && sudo apt install curl -y
-export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest | grep -F "tag_name" | awk -F\" '{print $4}')
-curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb"
+
+export ROS_APT_SOURCE_VERSION=$(curl -s
+https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest |
+grep -F "tag_name" |
+awk -F\" '{print $4}')
+
+curl -L -o /tmp/ros2-apt-source.deb
+"https://github.com/ros-infrastructure/ros-apt-source/releases/download
+/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$
+(. /etc/os-release &&
+echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb"
+
 sudo dpkg -i /tmp/ros2-apt-source.deb
 ```
 
