@@ -91,8 +91,8 @@ Ofrece además una infraestructura de comunicación <i>language agnostic</i>
 En la actualidad coexisten dos versiones independientes en desarrollo
 
 1. **ROS1**: La versión original, bastante extendida aunque ya en "desuso"
-   - Descargas en 2024 $\rightarrow$ ROS1 [Noetic Ninjemys](http://wiki.ros.org/noetic): 22,18%; ROS2 [Humble](https://docs.ros.org/en/humble/index.html): 39,39%
-   - En total en 2024 ROS2 supuso un 72% de descargas frente al 28% de ROS1 [Fuente](https://discourse.openrobotics.org/t/2024-ros-metrics-report/42354)
+   - Descargas en 2025 $\rightarrow$ ROS2 [Humble](https://docs.ros.org/en/foxy/Releases/Release-Humble-Hawksbill.html): 48.53%; ROS2 [Jazzy](https://docs.ros.org/en/jazzy/Installation.html): 24.45%
+   - En total en 2025 ROS2 supuso un 91.2% de descargas frente al 8.8% de ROS1 [Fuente](https://discourse.openrobotics.org/t/2024-ros-metrics-report/42354)
 1. **ROS2**: Con nuevas funcionalidades, mejoras y soporte desde 0 para Python3
 
 ROS2 trata de **superar las limitaciones** impuestas por su predecesor, ROS1
