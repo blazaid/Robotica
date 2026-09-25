@@ -306,7 +306,7 @@ Son el componente principal de nuestras aplicaciones
 
 ---
 
-![bg](https://docs.ros.org/en/foxy/_images/Nodes-TopicandService.gif)
+![h:800](https://docs.ros.org/en/foxy/_images/Nodes-TopicandService.gif)
 
 ---
 
