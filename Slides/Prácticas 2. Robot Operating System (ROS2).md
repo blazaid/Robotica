@@ -306,8 +306,12 @@ Son el componente principal de nuestras aplicaciones
 
 ---
 
-![h:800](https://docs.ros.org/en/foxy/_images/Nodes-TopicandService.gif)
+<center>
+<img height="500" src="images\t2\Nodes-TopicandService.gif">
 
+</center>
+
+> Fuente: [https://docs.ros.org/en/foxy/_images](https://docs.ros.org/en/foxy/_images)
 ---
 
 # Creación de un nodo
@@ -592,7 +596,12 @@ La **comunicación** es, en principio, **anónima**
 
 ---
 
-![bg](https://docs.ros.org/en/foxy/_images/Topic-MultiplePublisherandMultipleSubscriber.gif)
+<center>
+<img height="500" src="images\t2\Topic-MultiplePublisherandMultipleSubscriber.gif">
+
+</center>
+
+> Fuente: https://docs.ros.org/en/foxy/_images
 
 ---
 
@@ -805,18 +814,14 @@ Un repositorio muy útil para aplicaciones reales es `common_interfaces`
 
 # Mensajes personalizados
 
-Un topic se caracteriza por un **nombre** y una **interfaz** o tipo
-
-- El tipo de mensaje se describe con una sintaxis propia de ROS
+- El tipo de mensaje se describe con una sintaxis propia de ROS. El mensaje se caracteriza por un **nombre** y una **interfaz** o tipo
 - Durante la compilación del <i>workspace</i> (`colcon`) cada mensaje se <i>transpila</i>
 - Con este proceso se generarán los fuentes específicos para cada lenguaje
 
 <center>
 
-![Transpiling](../img/t2/transpiling.png)
+![h:275](https://tomassetti.me/wp-content/uploads/2020/06/Transpiler-Architecture.001.jpeg)
 </center>
-
-Un convenio que se sigue a rajatabla es:
 
 - Si el tipo es básico, empieza en minúscula (e.g. `int`, `string`)
 - Si el tipo es compuesto, en mayúscula (e.g. `Header`)
@@ -933,7 +938,12 @@ Es un sistema de comunicación de arquitectura **cliente/servidor**
 
 ---
 
-![bg](https://docs.ros.org/en/foxy/_images/Service-MultipleServiceClient.gif)
+<center>
+<img height="500" src="images\t2\Service-MultipleServiceClient.gif">
+
+</center>
+
+> Fuente: https://docs.ros.org/en/foxy/_images
 
 ---
 
@@ -1458,9 +1468,9 @@ def generate_launch_description():
 
 ---
 
-# Instalación [^1]
+# Instalación$^1$
 
-[^1]: En caso de instalar en macOS (no recomendado) la tarea se complica un poco más. Podéis encontrar un tutorial en https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html.
+$^1$: En caso de instalar en macOS (no recomendado) la tarea se complica un poco más: https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html.
 
 En nuestro caso, al usar **Jazzy** debemos el paquete correspondiente
 
