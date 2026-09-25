@@ -339,7 +339,12 @@
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-theme="etsisi" data-marpit-pagination="20" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
-<p><img src="https://docs.ros.org/en/foxy/_images/Nodes-TopicandService.gif" alt="" style="height:800px;" /></p>
+<center>
+<img height="500" src="images\t2\Nodes-TopicandService.gif" />
+</center>
+<blockquote>
+<p>Fuente: <a href="https://docs.ros.org/en/foxy/_images">https://docs.ros.org/en/foxy/_images</a></p>
+</blockquote>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-theme="etsisi" data-marpit-pagination="21" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
 <h1>Creación de un nodo</h1>
@@ -594,8 +599,15 @@ setup(
 </ul>
 <p><i>Publisher</i> y <i>subscriber</i> de un <strong>mismo topic</strong> deben compartir el <strong>mismo tipo de mensaje</strong></p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-theme="etsisi" data-marpit-pagination="35" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;" data-marpit-advanced-background="background"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;https://docs.ros.org/en/foxy/_images/Topic-MultiplePublisherandMultipleSubscriber.gif&quot;);"></figure></div></section></foreignObject><foreignObject width="1280" height="720"><section id="35" data-paginate="true" data-theme="etsisi" data-marpit-pagination="35" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;" data-marpit-advanced-background="content"></section>
-</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section style="" data-marpit-advanced-background="pseudo" data-marpit-pagination="35" data-marpit-pagination-total="81"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36" data-paginate="true" data-theme="etsisi" data-marpit-pagination="36" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="35" data-paginate="true" data-theme="etsisi" data-marpit-pagination="35" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
+<center>
+<img height="500" src="images\t2\Topic-MultiplePublisherandMultipleSubscriber.gif" />
+</center>
+<blockquote>
+<p>Fuente: <a href="https://docs.ros.org/en/foxy/_images">https://docs.ros.org/en/foxy/_images</a></p>
+</blockquote>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36" data-paginate="true" data-theme="etsisi" data-marpit-pagination="36" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
 <h1>Enviando mensajes</h1>
 <p>El envío de mensajes es tipo <i>broadcast</i>: sé qué envío, pero no quién escucha</p>
 <p>Para crear un bus usaremos el método <code>create_publisher</code> de <code>Node</code>:</p>
@@ -772,16 +784,14 @@ self.publisher.publish(msg)
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="45" data-paginate="true" data-theme="etsisi" data-marpit-pagination="45" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
 <h1>Mensajes personalizados</h1>
-<p>Un topic se caracteriza por un <strong>nombre</strong> y una <strong>interfaz</strong> o tipo</p>
 <ul>
-<li>El tipo de mensaje se describe con una sintaxis propia de ROS</li>
+<li>El tipo de mensaje se describe con una sintaxis propia de ROS. El mensaje se caracteriza por un <strong>nombre</strong> y una <strong>interfaz</strong> o tipo</li>
 <li>Durante la compilación del <i>workspace</i> (<code>colcon</code>) cada mensaje se <i>transpila</i></li>
 <li>Con este proceso se generarán los fuentes específicos para cada lenguaje</li>
 </ul>
 <center>
-<p><img src="../img/t2/transpiling.png" alt="Transpiling" /></p>
+<p><img src="https://tomassetti.me/wp-content/uploads/2020/06/Transpiler-Architecture.001.jpeg" alt="" style="height:275px;" /></p>
 </center>
-<p>Un convenio que se sigue a rajatabla es:</p>
 <ul>
 <li>Si el tipo es básico, empieza en minúscula (e.g. <code>int</code>, <code>string</code>)</li>
 <li>Si el tipo es compuesto, en mayúscula (e.g. <code>Header</code>)</li>
@@ -897,8 +907,15 @@ bool is_dense        <span class="hljs-comment"># True if there are no invalid p
 </li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-paginate="true" data-theme="etsisi" data-marpit-pagination="52" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;" data-marpit-advanced-background="background"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;https://docs.ros.org/en/foxy/_images/Service-MultipleServiceClient.gif&quot;);"></figure></div></section></foreignObject><foreignObject width="1280" height="720"><section id="52" data-paginate="true" data-theme="etsisi" data-marpit-pagination="52" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;" data-marpit-advanced-background="content"></section>
-</foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section style="" data-marpit-advanced-background="pseudo" data-marpit-pagination="52" data-marpit-pagination-total="81"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" data-paginate="true" data-theme="etsisi" data-marpit-pagination="53" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="52" data-paginate="true" data-theme="etsisi" data-marpit-pagination="52" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
+<center>
+<img height="500" src="images\t2\Service-MultipleServiceClient.gif" />
+</center>
+<blockquote>
+<p>Fuente: <a href="https://docs.ros.org/en/foxy/_images">https://docs.ros.org/en/foxy/_images</a></p>
+</blockquote>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" data-paginate="true" data-theme="etsisi" data-marpit-pagination="53" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
 <h1>Creación de un servidor</h1>
 <p>Un servicio se caracteriza por un <strong>nombre único</strong> y una <strong>interfaz</strong></p>
 <ul>
@@ -1354,8 +1371,8 @@ valor = param.get_parameter_value().&lt;tipo&gt;_value
 <h1>Integración de ROS2 con Webots</h1>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="79" data-paginate="true" data-theme="etsisi" data-marpit-pagination="79" data-marpit-pagination-total="81" style="--paginate:true;--theme:etsisi;">
-<h1>Instalación [^1]</h1>
-<p>[^1]: En caso de instalar en macOS (no recomendado) la tarea se complica un poco más. Podéis encontrar un tutorial en <a href="https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html">https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html</a>.</p>
+<h1>Instalación<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0" xmlns="http://www.w3.org/2000/svg" width="0.988ex" height="1.887ex" role="img" focusable="false" viewBox="0 -833.9 436.6 833.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msup"><g data-mml-node="mi"></g><g data-mml-node="mn" transform="translate(33,363) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></g></svg></mjx-container></h1>
+<p><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0" xmlns="http://www.w3.org/2000/svg" width="0.988ex" height="1.887ex" role="img" focusable="false" viewBox="0 -833.9 436.6 833.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msup"><g data-mml-node="mi"></g><g data-mml-node="mn" transform="translate(33,363) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></g></svg></mjx-container>: En caso de instalar en macOS (no recomendado) la tarea se complica un poco más: <a href="https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html">https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html</a>.</p>
 <p>En nuestro caso, al usar <strong>Jazzy</strong> debemos el paquete correspondiente</p>
 <pre><code class="language-bash"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap>sudo apt install ros-jazzy-webots-ros2
 </span></span></foreignObject></svg></code></pre>
