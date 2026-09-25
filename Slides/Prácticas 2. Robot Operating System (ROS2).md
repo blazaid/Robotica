@@ -136,7 +136,7 @@ La lista se encuentra en [https://docs.ros.org/en/rolling/Releases.html](https:/
 
 Nosotros instalaremos **Jazzy Jalisco** sobre **Ubuntu GNU/Linux 24.04**
 
-- Hemos elegido esta versión sobre <i>Iron Irwini</i> porque es LTS
+- Hemos elegido esta versión sobre otras al ser LTS y tener mantenimiento hasta 2029
 - Proceso de instalación: <https://docs.ros.org/en/jazzy/Installation.html>
   - Instalar las <i>development tools</i> y la versión de escritorio (<i>desktop</i>)
 
